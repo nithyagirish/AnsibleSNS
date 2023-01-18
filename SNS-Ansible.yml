@@ -19,7 +19,7 @@
                 numMaxDelayRetries: 5
                 numMinDelayRetries: 2
                 numNoDelayRetries: 2
-                backoffFunction: "linear"
+                backoffFunction: "function1"
             disableSubscriptionOverrides: True
             defaultThrottlePolicy:
                 maxReceivesPerSecond: 10
