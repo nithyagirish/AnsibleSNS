@@ -6,7 +6,7 @@
   tasks:
     - name: Create alarm SNS topic
       sns_topic:
-        name: "alarms"
+        name: "ansible-sns-nithya"
         state: present
         display_name: "alarm SNS topic"
         region: "us-west-2"
